@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "acme-json",
+  "homepage": "https://registry.acme.com",
+  "items": [
+    {
+      "name": "eslint-config",
+      "type": "registry:item",
+      "title": "ESLint Config",
+      "description": "Installs shared ESLint JSON config.",
+      "files": [
+        {
+          "path": "registry/default/eslint/base.json",
+          "type": "registry:file",
+          "target": "~/.eslintrc.json"
+        }
+      ]
+    },
+    {
+      "name": "prettier-config",
+      "type": "registry:item",
+      "title": "Prettier Config",
+      "description": "Installs shared Prettier config.",
+      "files": [
+        {
+          "path": "registry/default/prettier/prettier.json",
+          "type": "registry:file",
+          "target": "~/.prettierrc"
+        }
+      ]
+    },
+    {
+      "name": "cursor-python-rules",
+      "type": "registry:item",
+      "title": "Cursor Python Rules",
+      "description": "Installs Cursor rule file for Python projects.",
+      "files": [
+        {
+          "path": "registry/default/cursor/python-rules.mdc",
+          "type": "registry:file",
+          "target": "~/.cursor/rules/python-rules.mdc"
+        }
+      ]
+    }
+  ]
+}

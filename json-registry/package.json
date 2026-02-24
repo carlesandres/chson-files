@@ -1,0 +1,12 @@
+{
+  "name": "json-registry",
+  "private": true,
+  "scripts": {
+    "registry:build": "shadcn build",
+    "dev": "serve . -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "shadcn": "latest"
+  }
+}

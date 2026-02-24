@@ -1,0 +1,7 @@
+---
+description: Python coding rules
+globs: ["**/*.py"]
+---
+
+- Prefer type hints.
+- Keep functions small and testable.

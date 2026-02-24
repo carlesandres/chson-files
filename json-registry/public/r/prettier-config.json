@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "prettier-config",
+  "title": "Prettier Config",
+  "description": "Installs shared Prettier config.",
+  "files": [
+    {
+      "path": "registry/default/prettier/prettier.json",
+      "content": "{\n  \"semi\": false,\n  \"singleQuote\": true,\n  \"printWidth\": 100\n}\n",
+      "type": "registry:file",
+      "target": "~/.prettierrc"
+    }
+  ],
+  "type": "registry:item"
+}

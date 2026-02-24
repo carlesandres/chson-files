@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "eslint-config",
+  "title": "ESLint Config",
+  "description": "Installs shared ESLint JSON config.",
+  "files": [
+    {
+      "path": "registry/default/eslint/base.json",
+      "content": "{\n  \"root\": true,\n  \"extends\": [\"eslint:recommended\"]\n}\n",
+      "type": "registry:file",
+      "target": "~/.eslintrc.json"
+    }
+  ],
+  "type": "registry:item"
+}
